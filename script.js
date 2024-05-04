@@ -13,9 +13,17 @@
 
 
 // 3.What is the difference between let, var, and const variables?
-// var accepts duplicate variables.
-// let doesn't accepts duplicate variables.
+// var accepts duplicate variables and can be assign values multiple times.
+// var a = 2;
+// var a = 3;
+// a = 5;
+
+// let doesn't accepts duplicate variables and can be assign values multiple times.
+// let b = 2;
+//b = 3;
+
 // const doesn't accepts duplicate variables and can be assign value only once.
+//const g = 5.69;
 
 
 // 4.Suppose you want to print your name on the console. How do you write that?
@@ -29,7 +37,7 @@
 
 
 // 6.Take- two variables, the first number, and the second number, and then print their sum on the console.
-// let first_number = 6;
-// let second_number = 3;
-// let sum = first_number + second_number;
-// console.log("Sum of " + first_number + " + " + second_number + " = " + sum);
+// let a = 6;
+// let b = 3;
+// let sum = a + b;
+// console.log("Sum of " + a + " + " + b + " = " + sum);
